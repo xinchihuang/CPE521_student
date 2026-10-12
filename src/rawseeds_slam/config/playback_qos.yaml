@@ -1,0 +1,5 @@
+/scan_front: {reliability: reliable, durability: volatile, history: keep_last, depth: 100}
+/scan_rear: {reliability: reliable, durability: volatile, history: keep_last, depth: 100}
+/odom: {reliability: reliable, durability: volatile, history: keep_last, depth: 100}
+/tf: {reliability: reliable, durability: volatile, history: keep_last, depth: 100}
+/imu/data_raw: {reliability: reliable, durability: volatile, history: keep_last, depth: 100}

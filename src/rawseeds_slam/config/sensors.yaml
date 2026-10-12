@@ -1,0 +1,5 @@
+# Planar geometry from official Rawseeds Visualization Toolkit experiment.m.
+# These are 2D projected sensor poses, not a full 3D extrinsic calibration.
+front: {x: 0.08, y: 0.0, z: 0.0, yaw: 0.0}
+rear: {x: -0.463, y: 0.0, z: 0.0, yaw: 3.141592653589793}
+# No IMU extrinsic is invented. IMU extension students must obtain calibration.

@@ -1,0 +1,62 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: null
+  duration:
+    nanoseconds: 60002240000
+  files:
+  - duration:
+      nanoseconds: 60002240000
+    message_count: 22396
+    path: sample_60s.db3
+    starting_time:
+      nanoseconds_since_epoch: 1235603336009911000
+  message_count: 22396
+  relative_file_paths:
+  - sample_60s.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 1235603336009911000
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 2862
+    topic_metadata:
+      name: /odom
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: nav_msgs/msg/Odometry
+      type_description_hash: 
+        RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0
+  - message_count: 4498
+    topic_metadata:
+      name: /scan_front
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/LaserScan
+      type_description_hash: 
+        RIHS01_64c191398013af96509d518dac71d5164f9382553fce5c1f8cca5be7924bd828
+  - message_count: 4498
+    topic_metadata:
+      name: /scan_rear
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/LaserScan
+      type_description_hash: 
+        RIHS01_64c191398013af96509d518dac71d5164f9382553fce5c1f8cca5be7924bd828
+  - message_count: 7676
+    topic_metadata:
+      name: /imu/data_raw
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+      type_description_hash: 
+        RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b
+  - message_count: 2862
+    topic_metadata:
+      name: /tf
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: tf2_msgs/msg/TFMessage
+      type_description_hash: 
+        RIHS01_e369d0f05a23ae52508854b66f6aa0437f3449d652e8cbf22d5abe85d020f087
+  version: 8

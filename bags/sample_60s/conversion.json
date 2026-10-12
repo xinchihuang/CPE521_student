@@ -1,0 +1,21 @@
+{
+  "start_ns": 1235603336009911000,
+  "end_ns": 1235603396009911000,
+  "duration_s": 60.0,
+  "counts": {
+    "odom": 2862,
+    "front": 4498,
+    "rear": 4498,
+    "imu": 7676,
+    "tf": 2862
+  },
+  "scan_every": 1,
+  "clock": "original UNIX timestamps",
+  "static_tf": "published by workspace launch; not stored in bag",
+  "source_sha256": {
+    "odom.csv": "772fc965630a24dea4a9a1940dc1beb750d8fb9c1becbeb660ec08453ebda5a1",
+    "front.csv": "f6fecb5aa3d3338fc5305e454b61433a2a765f8e03c2d826ec9d852947d54e47",
+    "rear.csv": "2a165b572cd11358b706c9f81d10c7327747e4d8cf56dc8db46c650aa2583e6d",
+    "imu.csv": "87af1228575ecdb0b1770110ad898f35c8ed8291e07edc2ed1924d1dd60f6d8d"
+  }
+}
